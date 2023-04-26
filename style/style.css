@@ -112,6 +112,7 @@ nav ul li a {
   color: #f9f7f7;
   font-size: 18px;
   font-weight: bold;
+  margin-left: 0px;
 }
 .cv-figma {
   text-decoration: none;
@@ -128,7 +129,7 @@ nav ul li a {
 @media screen and (max-width: 900px) {
   .titulo-head2,
   .titulo-head {
-    font-size: 10px;
+    font-size: 5px;
   }
   .div-header {
     font-size: 5px;
@@ -146,12 +147,18 @@ nav ul li a {
     margin: 2px;
   }
 
-  .nav-links {
+  .nav-li {
     display: flex;
     justify-content: space-around;
-    padding: 0px;
+    padding: 2px;
     font-size: 5px;
+    margin: 0px;
   }
+
+  .nav-a {
+    font-size: 10px;
+  }
+
   .tipo-presentacion {
     font-size: 5px;
     color: #3f72af;
